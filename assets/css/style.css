@@ -155,6 +155,18 @@ footer{
         justify-content: center;
         align-items: center;
     }
+    .feature div {
+        width: 30%;
+        height: 450px;
+    }
+    .feature div img,
+    .feature div p {
+        margin-left: -50%;
+    }
+    .feature div h2{
+        margin: 0px;
+    }
+    
     .about{
         padding: 20px;
     }
@@ -169,6 +181,23 @@ footer{
     .service .content{
         width: auto;
         padding-left: 0px !important;
+    }
+}
+@media screen and (max-width:768px) {
+    header h2 span{
+        text-wrap: nowrap;
+    }
+    .banner {
+        height: auto;
+        padding: 0px;
+        flex-direction: column;
+    }
+    .banner h1 {
+        font-size: 30px;
+
+    }
+    .banner h1 span {
+        font-size: 45px;
     }
 }
 /* media query section end */
